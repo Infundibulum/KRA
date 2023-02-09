@@ -2,7 +2,7 @@
 
 .PHONY:
 test: nTm.pl
-	echo "test(c)." | swipl $< | tee $@
+	echo "test." | swipl $< | tee $@
 
 load:
 	swipl nTm.pl
